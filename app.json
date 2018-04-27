@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "page/component/index",
+    "page/component/component-pages/scroll-view/scroll-view",
+    "page/component/component-pages/slide-tab/slide-tab",
+    "page/API/index/index",
+    "page/Order/cert/cert",
+    "page/goPay/goPay"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#48C23D",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "点餐",
+    "navigationBarTextStyle": "white"
+  },
+    "tabBar": {
+      "color": "#454545",
+      "selectedColor": "#f00",
+      "borderStyle": "black",
+      "backgroundColor": "#efeff4",
+      "position": "top",
+      "list": [
+        {
+          "pagePath": "page/component/index",
+          "iconPath": "image/mealNormal.png",
+          "selectedIconPath": "image/mealSelect.png",
+          "text": "点餐"
+        },
+        {
+          "pagePath": "page/API/index/index",
+          "iconPath": "image/orderListNormal.png",
+          "selectedIconPath": "image/orderListSelect.png",
+          "text": "订单"
+        },
+        {
+          "pagePath": "page/component/component-pages/scroll-view/scroll-view",
+          "iconPath": "image/myNormal.png",
+          "selectedIconPath": "image/mySelect.png",
+          "text": "我的"
+        }
+      ]
+    },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

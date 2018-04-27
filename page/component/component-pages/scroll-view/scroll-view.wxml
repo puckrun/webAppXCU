@@ -1,0 +1,32 @@
+<view class="wrap">
+  <view class='top'>
+      <view class='top-left'>
+          <view class='circle'>
+            <image src='{{userInfo.avatarUrl}}'></image>
+          </view>
+      </view>
+      <view class='top-right'>
+          <view class='userName'>{{userInfo.nickName}}</view>
+        <!--   <view class='userName'>{{userInfo.nickName}}</view> -->
+      </view>
+  </view>
+  <view class='section'>
+    <view class='section-list' wx:for="{{listren}}" data-index="{{index}}" bindtap='jumpInvoice' >
+      <view class='section-list-left'>
+        <image src='{{listren[index].images}}' class='images'></image>
+      </view>
+      <view class='section-list-right'>
+        <view class='right-size'>{{listren[index].name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='section-list1' >
+      <view class='section-list-left'>
+        <image src='{{images}}' class='images'></image>
+      </view>
+      <view class='section-list-right'>
+        <view class='right-size'>{{name}}</view>
+      </view>
+    </view>
+   
+</view>

@@ -1,0 +1,72 @@
+page {
+  font-size: 16px;
+}
+
+.bg_color {
+  background: #fff;
+}
+
+
+  .invoice_detail_title {
+  height: 40rpx;
+  /* line-height: 100rpx;
+  padding-left: 40rpx; */
+  background: #eee;
+  margin-bottom: 20rpx;
+  /* color: #666;
+  font-size: 15px; */
+}  
+
+.invoice_form {
+  background: #fff;
+  display: block;
+  padding-left: 50rpx;
+}
+
+.invoice_form view {
+  display: flex;
+  flex-direction: row;
+  height: 66rpx;
+  border-bottom: 1px solid #eee;
+   margin-bottom: 20rpx; 
+}
+.invoice_form view text{
+  width:180rpx;
+}
+.invoice_form view input{
+  flex:1;
+}
+
+.invoice_form .last_view {
+  margin-bottom: 0;
+}
+
+.invoice_form view input {
+  color: #363636;
+}
+
+/* .receiving_info{
+  display: flex;
+  flex-direction: row;
+  padding-left: 50rpx;
+  height: 80rpx;
+  border-bottom: 1px solid #eee;
+} */
+
+/* .text_right {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  padding-right: 20rpx;
+  margin: 20rpx 0;
+} */
+.submit{
+  margin-top:40rpx;
+}
+.btn {
+  border: none;
+  background: #48c23d;
+  color: #fff;
+  margin: 30rpx 20rpx 0 -20rpx;
+  
+}

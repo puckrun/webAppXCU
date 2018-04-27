@@ -1,0 +1,80 @@
+page{
+  background-color: #edece8;
+}
+.where{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px;
+}
+.padding{
+  
+  background-color: #fff;
+}
+.detail{
+  margin: 0 auto;
+  width: 90%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1px solid #edece8;
+  position: relative;
+  background-color: #fff;
+  font-size: 13px;
+}
+.money{
+  position: absolute;
+  right: 2px;
+}
+.toll{
+  padding: 0 5%;
+  text-align: right;
+  height: 70rpx;
+  line-height: 70rpx;
+  background-color: #fff;
+  font-size: 15px;
+}
+.pay{
+  margin-top: 3%;
+  height: 70rpx;
+  line-height: 70rpx;
+  /* padding: 0 5%; */
+  text-align: left;
+  background-color: #fff;
+
+}
+.wxPay{
+  position: absolute;
+  right: 1px;
+}
+.radioPay{
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+.goPay{
+  position: fixed;
+  width: 100%;
+  height: 87rpx;
+  line-height: 87rpx;
+  bottom:0;
+  background: white;
+}
+.payMoney{
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+.price{
+  position: absolute;
+  right: 200rpx;
+}
+.number{
+  position: absolute;
+  right: 280rpx;
+}
+.tollPrice{
+  color: red;
+}

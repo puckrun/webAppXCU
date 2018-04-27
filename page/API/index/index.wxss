@@ -1,0 +1,106 @@
+.box {
+  width: 100%;
+  height: 100vh;
+  background: #efeff4;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    background: #efeff4;
+}
+.navs{
+    width: 100%;
+    height: 5px;
+    background: #efeff4;
+}
+.box .nav{
+  width: 100%;
+  height: 150px;
+  background: #fff;
+  margin-top: 5px;
+  
+}
+.box .nav .nav-top{
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.nav-left {
+  width: 50%;
+  height: 30px;
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+   color: #332d2d;
+  margin-left: 5px;
+}
+.nav-right {
+  width: 40%;
+  height: 30px;
+  float: right;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: right;
+  margin-right: 5px;
+   color: #332d2d;
+}
+.nav-section {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-left {
+  width: 24%;
+  height: 80px;
+  float: left;
+}
+
+.section-left image {
+  width: 65px;
+  height: 65px;
+  margin: 4px 0 0 4px;
+}
+
+.section-right {
+  width: 76%;
+  height:80px;
+  float: right;
+}
+.lisr-footer {
+  width: 100%;
+  height:30px;
+  }
+  .lisr-footer-left {
+  width:50%;
+  height: 30px;
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+   color: #332d2d;
+}
+
+.lisr-footer-right {
+  width: 50%;
+  height:30px;
+  float: right;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: right;
+   color: #332d2d;
+}
+.temo{
+  font-size: 13px;
+  
+}
+.trmo-top{
+   width: 76%;
+  height:40px;
+  line-height: 40px;
+}
+.trmo-bottom{
+  width: 76%;
+  height:40px;
+  line-height: 40px;
+}

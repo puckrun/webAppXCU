@@ -1,0 +1,27 @@
+<!--pages/goPay/goPay.wxml-->
+<view class='padding'>
+<view class='where'>
+  <text>桌号-{{deskNum}}</text>
+</view>
+
+  <view wx:for='{{cart}}' data-id="{{item.id}}" data-index='{{index}}' bindtap='ss' class='detail'>
+    <text>{{item.name}}</text>
+    <text class='number'>{{item.count}}</text>
+    <text class='price'>x{{item.price}}</text>
+    <text class='money'>￥{{item.count *item.price }}</text>
+  </view>
+</view>
+<view class='toll'>
+共计：{{num1}}份
+</view>
+<view class='pay'>
+  <view class='radioPay'>
+    <text>微信支付</text>
+    <radio class='wxPay' checked></radio>
+  </view>
+</view>
+<view class='goPay'>
+<text>合计：</text>
+  <text class='tollPrice'>￥{{tollPrice}}</text>
+  <text class='payMoney' bindtap='nowPay'>立即支付</text>
+</view>

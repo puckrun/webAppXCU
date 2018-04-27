@@ -1,0 +1,35 @@
+<view class="main">
+  <!-- 发票详情 -->
+  <view class='invoice_detail'>
+     <view class='invoice_detail_title'></view> 
+
+    <form class="invoice_form" bindsubmit="formSubmit">
+      <!-- 抬头公司 -->
+      <view>
+          <text>公司名称：</text><input name="companrName" value="{{title}}" placeholder="公司名称 (必填)"/>  
+      </view>
+      <!-- 发票内容  -->
+      <view>
+          <text>税号：</text><input name="dutyParagraph" value="{{taxNumber}}" placeholder="15-20位 (企业报销时必填)"/>  
+      </view>
+      <view>
+         <text>单位地址：</text><input name="address" value="{{companyAddress}}" placeholder="公司地址"/>  
+      </view>
+      <!-- 电话 -->
+      <view>
+        <text>电话号码：</text><input name="telephone" value="{{telephone}}" placeholder="公司电话"/>  
+      </view>
+      <!-- 开户行及账号  -->
+      <view>
+        <text>开户银行：</text><input name="bank" value="{{bankName}}" placeholder="开户银行"/>  
+      </view>
+        <view class="last_view">
+        <text>开户账号：</text><input name="account" value="{{bankAccount}}" placeholder="银行账号"/>  
+      </view>
+        <!--提交按钮  -->
+      <button class='btn' formType="submit">提交</button>
+    </form>
+
+  </view>
+
+</view>
